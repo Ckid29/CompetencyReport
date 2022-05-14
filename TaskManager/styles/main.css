@@ -1,0 +1,86 @@
+h1 {
+    color:pink;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Water Brush', cursive;
+    font-weight: bold;
+    text-align:center;
+}
+
+.control {
+    font-family: 'Water Brush', cursive;
+    font-size: 25px;
+}
+
+.main {
+    display:flex;
+    background: url("https://thebusybaker.ca/wp-content/uploads/2018/07/healthy-pomegranate-lemonade-fbig1.jpg");
+    background-size:cover;
+    background-repeat: repeat;
+}
+
+#list {
+    flex: 5;
+    min-height: calc(100vh - 89px);
+    font-family: 'Water Brush', cursive;
+}
+
+#form {
+    flex: 2;
+    padding:10px;
+    background-color: #ff96a8;
+    min-height: calc(100vh - 89px);
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    border-bottom: 3px;
+    padding-bottom: 5px;
+}
+
+#form .control {
+    margin-bottom: 12px;
+}
+
+.iImportant {
+    font-size: 32px;
+    color: red;
+    cursor: pointer;
+}
+#form .control .fas{
+    color: red;
+}
+#form .control .far {
+    color:white;
+}
+
+.task-item {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.task-item:hover {
+    border-color: red;
+    border-left-width: 4px;
+}
+.task-item .icon {
+    flex: 1;
+}
+.task-item .info-1 {
+    flex: 3;
+}
+
+.task-item .info-2 {
+    flex:1;
+}
+.task-item .info-2 label {
+    display: block;
+}
+.task-item .info-3 {
+    flex: 1;
+}
